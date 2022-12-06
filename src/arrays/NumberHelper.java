@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class NumberHelper {
 
     public static boolean isSortedArray(int[] numbers) {
@@ -10,10 +12,10 @@ public class NumberHelper {
             else return false;
     }
 
-    public static int[] removeDuplicates(int[] numbers) {
+   /* public static int[] removeDuplicates(int[] numbers) {
         int[] newNumbers = new int[numbers.length];
         for (int i = 0; i < numbers.length ; i++) {
-            if (numbers[i] > 0) {
+            if (numbers[i] != numbers. {
                 newNumbers[i] = numbers[i];
             }
             else  {
@@ -21,5 +23,5 @@ public class NumberHelper {
             }
         }
         return newNumbers;
-    }
+    }*/
 }
