@@ -4,12 +4,19 @@ import java.util.ArrayList;
 
 public class PersonManager {
 
+    @Override
+    public String toString() {
+        return "PersonManager{" +
+                "persons=" + persons +
+                '}';
+    }
+
     ArrayList<Person> persons = new ArrayList<>();
 
     public PersonManager() {
     }
 
-    public void add(Person p) {
+    public void addPerson(Person p) {
         persons.add(p);
     }
 
