@@ -1,6 +1,4 @@
-package org.campus02.arrays.vererbung;
-
-import com.sun.jdi.Value;
+package org.campus02.komplett2.vererbung;
 
 import java.util.HashMap;
 

@@ -1,6 +1,4 @@
-package Rekursion;
-
-import java.util.ArrayList;
+package org.campus02.komplett2.Rekursion;
 
 public class Ort {
 

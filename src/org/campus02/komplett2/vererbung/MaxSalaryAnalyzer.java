@@ -1,4 +1,4 @@
-package org.campus02.arrays.vererbung;
+package org.campus02.komplett2.vererbung;
 
 import java.util.Collections;
 import java.util.HashSet;

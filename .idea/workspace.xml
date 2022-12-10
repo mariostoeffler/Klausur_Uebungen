@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a0178-5f6c-4411-9591-de796a0d1f0f" name="Changes" comment="began with first two classes;">
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/BMIAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics_ue/DemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics_ue/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/generics_ue/EventKalender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/ArrayHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/arrays/ArrayHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rekursion/Ort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/Rekursion/Ort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/arrays/NumberHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/ArrayHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/array/ArrayHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/Demo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/array/Demo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/BMIAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/BMIAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/CountryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/CountryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/GenderAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/GenderAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/MaxSalaryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/MaxSalaryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/PersonAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/PersonAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/campus02/arrays/vererbung/PersonManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/PersonManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,29 +55,17 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.campus02.arrays.komplett2" />
       <recent name="org.campus02.arrays.vererbung" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo2">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.Demo" />
-      <module name="Klausur_Uebungen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.generics_ue.DemoApp">
     <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.arrays.Demo2" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.arrays.komplett2.arrays.Demo2" />
       <module name="Klausur_Uebungen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.campus02.arrays.*" />
+          <option name="PATTERN" value="org.campus02.arrays.komplett2.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +74,11 @@
       </method>
     </configuration>
     <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.arrays.vererbung.DemoApp" />
+      <option name="MAIN_CLASS_NAME" value="org.campus02.arrays.komplett2.arrays.komplett2.DemoApp" />
       <module name="Klausur_Uebungen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.campus02.arrays.vererbung.*" />
+          <option name="PATTERN" value="org.campus02.arrays.komplett2.arrays.komplett2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.campus02.arrays.vererbung.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.arrays.vererbung.Demo" />
+    <configuration name="generics_ue.DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="generics_ue.DemoApp" />
       <module name="Klausur_Uebungen" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.campus02.arrays.vererbung.*" />
+          <option name="PATTERN" value="generics_ue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.campus02.komplett2.array.Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.komplett2.array.Demo2" />
+      <module name="Klausur_Uebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.komplett2.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.campus02.komplett2.vererbung.DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.komplett2.vererbung.DemoApp" />
+      <module name="Klausur_Uebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.komplett2.komplett2.vererbung.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.generics_ue.DemoApp" />
+      <item itemvalue="Application.org.campus02.komplett2.array.Demo2" />
+      <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.DemoApp" />
+      <item itemvalue="Application.org.campus02.komplett2.vererbung.DemoApp" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.generics_ue.DemoApp" />
+        <item itemvalue="Application.org.campus02.komplett2.array.Demo2" />
+        <item itemvalue="Application.org.campus02.komplett2.vererbung.DemoApp" />
         <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.DemoApp" />
-        <item itemvalue="Application.org.campus02.arrays.vererbung.Demo" />
-        <item itemvalue="Application.Demo" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670600269926</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="began with first two classes;">
+      <created>1670618640522</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670618640522</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,14 +208,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/campus02/arrays/Demo2.java</url>
+          <url>file://$PROJECT_DIR$/src/org/campus02/komplett2/array/Demo2.java</url>
           <line>9</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/org/campus02/arrays/vererbung/DemoApp.java</url>
+          <url>file://$PROJECT_DIR$/src/org/campus02/komplett2/vererbung/DemoApp.java</url>
           <line>16</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/generics_ue/DemoApp.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />

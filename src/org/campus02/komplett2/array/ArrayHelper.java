@@ -1,4 +1,4 @@
-package org.campus02.arrays;
+package org.campus02.komplett2.array;
 
 public class ArrayHelper {
 
