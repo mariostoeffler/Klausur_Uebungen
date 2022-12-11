@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c73a0178-5f6c-4411-9591-de796a0d1f0f" name="Changes" comment="began with first two classes;">
-      <change afterPath="$PROJECT_DIR$/src/rekursion/PalindromChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/komplett1/arrays/NumberHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/komplett1/oop/DemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/campus02/komplett1/oop/Payment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,33 @@
       <recent name="org.campus02.arrays.vererbung" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PalindromChecker">
+  <component name="RunManager" selected="Application.DemoApp">
+    <configuration name="DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.komplett1.oop.DemoApp" />
+      <module name="Klausur_Uebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.komplett1.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.campus02.komplett1.arrays.NumberHelper" />
+      <module name="Klausur_Uebungen" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.campus02.komplett1.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PalindromChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rekursion.PalindromChecker" />
       <module name="Klausur_Uebungen" />
@@ -84,46 +112,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="org.campus02.komplett2.array.Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.komplett2.array.Demo2" />
-      <module name="Klausur_Uebungen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campus02.komplett2.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="org.campus02.komplett2.vererbung.DemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.campus02.komplett2.vererbung.DemoApp" />
-      <module name="Klausur_Uebungen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.campus02.komplett2.komplett2.vererbung.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.DemoApp" />
+      <item itemvalue="Application.NumberHelper" />
       <item itemvalue="Application.PalindromChecker" />
       <item itemvalue="Application.Sum" />
       <item itemvalue="Application.generics_ue.DemoApp" />
-      <item itemvalue="Application.org.campus02.komplett2.array.Demo2" />
-      <item itemvalue="Application.org.campus02.komplett2.vererbung.DemoApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoApp" />
+        <item itemvalue="Application.NumberHelper" />
         <item itemvalue="Application.PalindromChecker" />
         <item itemvalue="Application.Sum" />
         <item itemvalue="Application.generics_ue.DemoApp" />
-        <item itemvalue="Application.org.campus02.komplett2.array.Demo2" />
-        <item itemvalue="Application.org.campus02.komplett2.vererbung.DemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670684528057</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="began with first two classes;">
+      <created>1670758748603</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670758748603</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -230,6 +239,11 @@
           <url>file://$PROJECT_DIR$/src/rekursion/PalindromChecker.java</url>
           <line>8</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/org/campus02/komplett1/arrays/NumberHelper.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
