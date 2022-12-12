@@ -20,15 +20,15 @@ public abstract class Payment {
         double temp = 0;
 
         switch (getCurrency()) {
-            case "USD": temp = getAmount()*1.1;
+            case "USD": temp = amount*1.1;
             break;
-            case "GBP": temp = getAmount()*0.85;
+            case "GBP": temp = amount*0.85;
             break;
-            case "SEK": temp = getAmount()*9.5;
+            case "SEK": temp = amount*9.5;
             break;
-            case "HUF": temp = getAmount()*310;
+            case "HUF": temp = amount*310;
             break;
-            default: temp= getAmount()*2;
+            default: temp= amount*2;
         }
         return temp;
     }
@@ -38,4 +38,5 @@ public abstract class Payment {
     public String getCurrency() {
         return currency;
     }
+
 }
