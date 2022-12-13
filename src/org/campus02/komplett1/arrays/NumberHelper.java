@@ -31,22 +31,19 @@ public class NumberHelper {
     }
 
     public static int[] removeDuplicates(int[] numbers) {
-        int[] temp = new int[numbers.length];
 
         for (int i = 0; i < numbers.length ; i++) {
-            if (numbers[i] > 0) {
-                for (int j = 0; j < temp.length ; j++) {
-                    if (numbers[j]==numbers[i]) {
-                        temp[i] = -1;
-                        break;
-                    }
-                    else temp[i] = numbers[i];
+            if (numbers[i] < 0)
+                continue;
 
+                for (int j = i+1; j < numbers.length ; j++) {
+                    if (numbers[i]==numbers[j]) {
+                        numbers[j] = -1;
+                    }
                 }
 
-            }
-            temp[i] = numbers[i];
+
         }
-        return temp;
+        return numbers;
     }
 }
